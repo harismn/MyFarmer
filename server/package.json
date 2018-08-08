@@ -3,14 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "nodemon ./bin/www",
+    "sequelize": "node_modules/.bin/sequelize"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
     "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
     "debug": "~2.6.9",
     "express": "~4.15.5",
-    "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "mysql2": "^1.6.1",
     "nodemon": "^1.18.3",

@@ -8,14 +8,26 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      firstName: {
-        type: Sequelize.STRING
-      },
-      lastName: {
+      full_name: {
         type: Sequelize.STRING
       },
       email: {
         type: Sequelize.STRING
+      },
+      password: {
+        type: Sequelize.STRING
+      },
+      phone: {
+        type: Sequelize.STRING
+      },
+      hash: {
+        type: Sequelize.STRING
+      },
+      is_active_notif: {
+        type: Sequelize.TINYINT
+      },
+      registration_complete: {
+        type: Sequelize.TINYINT
       },
       createdAt: {
         allowNull: false,
